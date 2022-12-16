@@ -1,1 +1,28 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+// general
+$bg: rgb(28, 35, 45);
+$bth: rgb(52, 120, 170);
+
+header{
+    background-color: $bth;
+}
+
+body {
+    background-color: $bg;
+
+    .carousel-item img{
+        height: 80vh;
+        width: auto;
+    }
+
+    .carousel{
+        width: 30%;
+    }
+}
+
+
+.mycontainer {
+    max-width: 1300px;
+    margin: 0 auto;
+}
